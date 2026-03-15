@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>工程進度管理系統</title>
+    <style>
+        body { font-family: "Microsoft JhengHei", sans-serif; text-align: center; background-color: #f4f4f4; }
+        .container { background: white; width: 80%; margin: 20px auto; padding: 20px; border-radius: 10px; shadow: 5px 5px 15px rgba(0,0,0,0.1); }
+        .progress-bar { background: #ddd; border-radius: 20px; height: 30px; width: 100%; margin: 10px 0; }
+        .progress-fill { background: #4CAF50; height: 100%; border-radius: 20px; width: 85%; line-height: 30px; color: white; }
+        img { max-width: 100%; height: auto; border-radius: 5px; margin-top: 15px; }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>🏗️ 王先生的工程進度看板</h1>
+        <hr>
+        <h2>專案名稱：樹語苑</h2>
+        <p>目前狀態：交屋驗收階段</p>
+        
+        <div class="progress-bar">
+            <div class="progress-fill">整體進度 85%</div>
+        </div>
+
+        <h3>現場施工照片：</h3>
+        <img src="work.jpg" alt="現場照片">
+        
+        <hr>
+        <p>最後更新時間：2026年3月</p>
+    </div>
+</body>
+</html>
